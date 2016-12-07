@@ -1,7 +1,5 @@
 FROM openjdk:8-jdk
 
-RUN apk add --no-cache curl tar bash
-
 ARG MAVEN_VERSION=3.3.9
 ARG USER_HOME_DIR="/root"
 
